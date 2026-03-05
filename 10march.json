@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "passage": "Bank credit to the industrial sector has started shrinking. Its decline has been a serious concern as credit growth is essential to revive investment. The problem's origins lie in the incomplete reforms of the last 25 years. An institutional change that should have followed the 1991 reforms should have been setting up of a resolution corporation for banks. In a market economy with booms and busts, banks should be allowed to be set up and to fail. Today, we cannot shut down banks because there is no proper system to shut them down. Weak loss-making banks continue to need more capital.",
+    "questions": [
+      {
+        "questionNumber": 41,
+        "question": "Which one of the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "Indian banking system is not able to help the country in its economic growth.",
+          "Economic reforms that started in 1991 have not helped in improving the economy to expected levels.",
+          "India lacks the institutional mechanisms to deal with the failure of banks.",
+          "Encouraging foreign investments in our industrial sector is a good alternative to this sector's dependence on banks for credit."
+        ],
+        "answer": 2,
+        "explanation": "The passage specifically mentions that a resolution corporation for banks — an institutional mechanism — was never set up after 1991 reforms, and as a result India cannot shut down failing banks. This directly supports option (c). Option (a) is too broad and not directly implied. Option (b) is partially true but the passage focuses specifically on one missing reform, not all reforms. Option (d) is never mentioned in the passage. Hence option (c)."
+      }
+    ]
+  },
+  {
+    "passage": "Genome editing is different from genome modification. Genome editing typically involves finding the part of a plant genome that could be changed to render it less vulnerable to disease, or resistant to certain herbicides, or to increase yields. Researchers use 'molecular scissors' to dissect the genome and repair it, which is a process that occurs naturally when plants are under attack from diseases and can throw up new mutations that enable the plant to survive future attacks. This evolutionary process can effectively be speeded up now that it is possible to examine plant genomes in detail in laboratories, and create mechanisms through which the relevant genes can be altered very precisely.",
+    "questions": [
+      {
+        "questionNumber": 44,
+        "question": "With reference to the above passage, which of the following assumptions is/are valid?\n1. Genome editing does not require the transfer of genes from one plant to another.\n2. Through genome editing, the chosen genes can be altered precisely in a manner akin to the natural process that helps plants to adapt to the environmental factors.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 2,
+        "explanation": "Statement 1 is valid — the passage describes genome editing as finding and changing parts within the plant's own genome using molecular scissors, with no mention of transferring genes from another plant. Statement 2 is valid — the passage explicitly states that the natural evolutionary process of genome repair is being sped up in laboratories by precisely altering relevant genes, making it akin to the natural adaptation process. Hence option (c): Both 1 and 2."
+      }
+    ]
+  },
+  {
+    "passage": "Many people understand the connection between solid waste management and health in terms of the consequences of unattended heaps of dry garbage which become home for flies and other vermin. However, there is another aspect that is not well-understood, that is, what happens when unscientific solid waste management combines with poor drainage and dumping of untreated sewage into drains which are meant to carry storm water during rains. The result is choked drains which are full of stagnant water breeding mosquitoes, resulting in the spread of water-borne diseases.",
+    "questions": [
+      {
+        "questionNumber": 45,
+        "question": "In the context of India, which one of the following statements best reflects the critical message of the passage?",
+        "options": [
+          "In India, the drainage networks are not separate for sewerage and storm water.",
+          "Urban local bodies do not have enough resources and legislative authority to deal with the problems of waste management.",
+          "Solid waste management should be integrated with the maintenance of drainage and sewerage networks.",
+          "Bad management of solid waste and sewerage systems by our municipalities is the reason for drinking water shortages in our cities."
+        ],
+        "answer": 2,
+        "explanation": "The passage argues that the lesser-understood problem arises when unscientific solid waste management combines with poor drainage — implying that these two systems need to be managed together. Option (c) directly captures this integrated approach. Option (a) misreads the passage — it actually implies two separate drain types exist. Option (b) is never mentioned in the passage. Option (d) is incorrect as the passage talks about water-borne diseases, not drinking water shortages. Hence option (c)."
+      }
+    ]
+  },
+  {
+    "passage": "In Part III of the Constitution, which assures people certain fundamental rights, Article 25 proclaims that 'all persons are equally entitled to freedom of conscience and the right freely to profess, practise and propagate religion'. What people fail to notice is that this proclamation is prefixed with the words 'subject to public order, morality, health and to the other provisions of this Part', which set conditions precedent for the legal protection of religious practices of any community. The closing words of this prefatory rider in Article 25 virtually constitute a subordination clause placing other fundamental rights mentioned in Part III over and above the right to religious freedom. Among those other fundamental rights is the right to equality before law and equal protection of laws — assured at the outset and elaborated in later articles to mean, inter alia, that the State shall not deny equal protection of laws to any person or group of persons on the basis of religion alone.",
+    "questions": [
+      {
+        "questionNumber": 46,
+        "question": "What is the most logical inference from the above passage?",
+        "options": [
+          "State shall not interfere with the religious affairs of the citizens.",
+          "Religious freedom under the Constitution is open to State intervention.",
+          "Religious freedom of the citizens is not covered under fundamental rights.",
+          "Religious practices of any community are immune to State laws."
+        ],
+        "answer": 1,
+        "explanation": "The passage explains that Article 25 is subject to public order, morality, health and other fundamental rights in Part III. This subordination clause means religious freedom is not absolute and can be overridden by other fundamental rights, allowing State intervention. Option (a) is directly contradicted by the passage. Option (c) is wrong — the passage confirms religious freedom is in Part III as a fundamental right. Option (d) is wrong — the passage clearly states religious practices are subject to conditions. Hence option (b)."
+      }
+    ]
+  },
+  {
+    "passage": "Spanish ships in the late 16th century first brought the potato tuber from South America to Europe whereby in the early 19th century, it had become a reliable backup to cereal crops, particularly in the cold, rain-soaked soils of Ireland. The Irish were soon almost wholly dependent on the potato as their staple food. And they were planting primarily one prodigious variety, the 'Lumper' potato, whose genetic frailty would be cruelly exposed by the fungus 'Phytophthora infestans'. In 1845, spores of the deadly fungus began spreading across the country, destroying nearly all the Lumpers in its path. The resulting famine killed or displaced millions.",
+    "questions": [
+      {
+        "questionNumber": 51,
+        "question": "Which one of the following statements best reflects the critical message of the passage?",
+        "options": [
+          "For introducing any foreign plant into a country, the soil and climate conditions of that country should be suitable.",
+          "As a staple food of a country, tuber crops like potato cannot replace cereal crops.",
+          "Some of the fungal infections of plants cannot be prevented or stopped from spreading across large areas.",
+          "Relying on a homogeneous food source is not desirable."
+        ],
+        "answer": 3,
+        "explanation": "The passage narrates how Ireland's near-total dependence on a single potato variety — a homogeneous food source — led to catastrophic famine when a fungus wiped it out. The critical message is the danger of relying on one food source without diversification. Option (a) is not the focus — the potato did grow well in Ireland. Option (b) is not implied anywhere. Option (c) is a factual observation but not the central lesson. Option (d) best captures the core warning of the passage. Hence option (d)."
+      }
+    ]
+  }
+]

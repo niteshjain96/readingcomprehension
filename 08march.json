@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "passage": "In India, agriculture still engages about half of its workforce, and about 85 per cent of its farms are small and marginal. Compared to China and Vietnam, which have experienced fast structural and rural transformation, India's story is of slow transformation. As a result, poverty reduction in India was at much slower pace during 1988-2014, compared to China and Vietnam. India's poverty reduction was slow during 1988-2005, but during 2005-2012, it accelerated dramatically — almost three times faster than during the earlier period. What did India do during this period? Research reveals that the relative price scenario changed significantly (by more than 50%) in favour of agriculture in the wake of rising global prices. This boosted private investments in agriculture by more than 50%. As a result, agri-GDP growth touched 4.1% during 2007-2012 as against 2.4% during 2002-2007. The net surplus of agri-trade touched $25 billion in 2013-2014; real farm wages rose by 7% per annum. All this led to unprecedented fall in poverty.",
+    "questions": [
+      {
+        "questionNumber": 6,
+        "question": "With reference to the above passage, which of the following assumptions are valid?\n1. Structural and rural transformation is impossible when farms are mainly small and marginal.\n2. A good price incentive can trigger investments in agriculture.\n3. India needs to build value chains for high-value agri-products like livestock and horticulture.\n4. Higher global prices of agricultural commodities are essential for India's poverty reduction.",
+        "options": [
+          "1 and 3",
+          "2 and 4",
+          "2 and 3",
+          "3 and 4"
+        ],
+        "answer": 1,
+        "explanation": "Statement 1 is invalid — the passage does not link small/marginal farm size as a barrier to transformation. Statement 2 is valid — the passage directly shows that rising global prices triggered a 50%+ boost in private agricultural investment. Statement 3 is invalid — the passage never mentions value chains for livestock or horticulture. Statement 4 is valid — the passage directly correlates rising global prices with accelerated poverty reduction in India. Hence option (b): 2 and 4."
+      },
+      {
+        "questionNumber": 7,
+        "question": "Which one of the following statements best reflects the critical message of the passage?",
+        "options": [
+          "India should create large-scale off-farm rural employment to reduce poverty in the near future.",
+          "India should create a large number of farmer producer companies.",
+          "Private investment in agriculture should be given priority over public investment.",
+          "Inclusive agricultural growth is key to reduce poverty in the near future."
+        ],
+        "answer": 3,
+        "explanation": "The passage's central theme is that when agricultural conditions improved (better prices, higher investment, wage growth), poverty fell dramatically. Option (d) — inclusive agricultural growth — captures this broader message. Option (c) seems tempting but is too narrow; the passage does not dismiss public investment. Options (a) and (b) are not implied anywhere in the passage. Hence option (d)."
+      }
+    ]
+  },
+  {
+    "passage": "In India, over the last decade or so, labour has been departing agriculture, but is only going to construction and unregistered manufacturing which are not markedly better jobs. Services, where labour tends to be most productive, are not generating the additional jobs the country needs. India will need 24 million or so jobs over the next decade. The new sector, e-commerce, can at best close only half the jobs gap. Only those sectors that drive domestic demand such as health and education can comfortably fill the other half.",
+    "questions": [
+      {
+        "questionNumber": 11,
+        "question": "Which one of the following is best implied in the passage?",
+        "options": [
+          "Strong measures need to be taken to reduce the rural to urban migration of labour.",
+          "The working condition in construction and unregistered manufacturing needs to be improved.",
+          "Service sector has been reducing the problem of unemployment.",
+          "Increased social sector spending is imperative for large-scale job creation."
+        ],
+        "answer": 3,
+        "explanation": "The passage states that only sectors driving domestic demand — like health and education (social sectors) — can fill the remaining jobs gap. This directly implies increased social sector spending is needed for job creation. Option (a) is incorrect as the passage does not mention rural-urban migration. Option (b) is an assumption not stated in the passage. Option (c) is explicitly contradicted — services are NOT generating needed jobs. Hence option (d)."
+      }
+    ]
+  },
+  {
+    "passage": "In India, the current focus on the right to privacy is based on some new realities of the digital age. A right is a substantive right only if it works in all situations, and for everyone. A right to free expression for an individual about her exploitation, for instance, is meaningless without actual availability of security that guarantees that private force cannot be used to thwart this right. The role of the State, therefore, is not just to abstain from preventing rightful free expression, but also to actively ensure that private parties are not able to block it.",
+    "questions": [
+      {
+        "questionNumber": 12,
+        "question": "On the basis of the above passage, which of the following assumptions is/are valid?\n1. State should have some institutions to ensure its appropriate role in a digital society.\n2. State should ensure that private parties do not violate the citizens' right to privacy.\n3. Digital economy is not compatible with the idea of not violating the citizens' privacy.",
+        "options": [
+          "1 and 2",
+          "3 only",
+          "1 and 3",
+          "2 only"
+        ],
+        "answer": 0,
+        "explanation": "Statement 1 is valid — for the State to actively ensure rights are not blocked, it needs institutional mechanisms. Statement 2 is valid — the passage explicitly says the State must ensure private parties cannot block citizens' rights; in the context of the passage (right to privacy in digital age), this extends to privacy rights. Statement 3 is invalid — the passage does not suggest digital economy is inherently incompatible with privacy; it only notes threats exist but can be addressed. Hence option (a): 1 and 2."
+      }
+    ]
+  },
+  {
+    "passage": "One of the biggest ironies around water is that it comes from rivers and other wetlands. Yet it is seen as divorced from them. While water is used as a resource, public policy does not always grasp that it is a part of the natural ecosystem. Efforts at engineering water systems are thus efforts at augmenting water supply rather than strengthening the capacities of ecological systems.",
+    "questions": [
+      {
+        "questionNumber": 13,
+        "question": "Which one of the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "Rivers and other wetlands should be protected under Ramsar Convention.",
+          "Engineering water systems should be modernized and further augmented.",
+          "Wetlands need to be reinforced as more than just open sources of water.",
+          "Water supply should not be free of cost so as to prevent its misuse or overuse."
+        ],
+        "answer": 2,
+        "explanation": "The passage argues that water is part of a natural ecosystem but is treated as divorced from it. Policy focuses on augmenting supply (engineering) rather than strengthening ecological systems. The logical inference is that wetlands must be seen as ecological systems, not merely water sources — option (c). Option (a) is not mentioned. Option (b) is the opposite of what the author recommends. Option (d) is out of scope. Hence option (c)."
+      }
+    ]
+  }
+]

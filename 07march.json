@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "passage": "Private investment in general is volatile. Foreign private investment is more volatile because the available investment avenues are significantly greater (i.e., the entire world). Therefore, the responsibility of providing employment cannot be left to Foreign Direct Investment (FDI). The current FDI inflows are volatile over time and across sectors and regions, which is a necessary consequence of their search for the highest returns. The adverse consequences are unstable employment and an accentuation of income and regional inequalities. A probable positive consequence of foreign investment is the inflow of new technology and its subsequent diffusion. However, the technology diffusion is not at all certain because the existing state of physical and human capital in India may prove inadequate for the diffusion.",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "With reference to the above passage, which of the following assumptions are valid?\n1. Relying on foreign investment in the long run is not an economically sound policy.\n2. Policies must be undertaken to reduce volatility in foreign private investment.\n3. Policies must be undertaken to strengthen domestic private investment.\n4. Public investment should be given priority over private investment.\n5. Substantial public investment in education and health should be undertaken.",
+        "options": [
+          "1, 2 and 4",
+          "1, 3 and 5",
+          "2, 4 and 5",
+          "3 only"
+        ],
+        "answer": 1,
+        "explanation": "Statement 1 is valid as the passage highlights negative consequences of FDI volatility. Statement 2 is invalid — the passage does not suggest the State can reduce FDI volatility. Statement 3 is valid by implication (if FDI is unreliable, domestic investment should be strengthened). Statement 5 is valid since inadequate human capital hinders technology diffusion, implying need for public investment in education/health. Hence option (b): 1, 3 and 5."
+      }
+    ]
+  },
+  {
+    "passage": "Many opportunities to harness the highly skewed, seasonal and spatial distribution of monsoon flows, which occur in a four-month period from June to September annually, have been lost. Since these few months account for most of the rainfall and consequent freshwater availability, the need for holding rainwater in reservoirs, for subsequently releasing it for use over the year, is a necessity nobody can afford to overlook. Climate change will continue to affect weather conditions and create water shortages and excesses. While millions suffer from droughts and floods, waters in the country's many rivers flow unutilized, and are discharged into the sea every year.",
+    "questions": [
+      {
+        "questionNumber": 2,
+        "question": "With reference to the above passage, which of the following could be the most rational and practical implications for India?\n1. Inter-linking of rivers should be undertaken.\n2. A network of dams and canals should be built across the country for proper distribution of water.\n3. Farmers should be provided easy loans for digging borewells.\n4. Usage of water for agriculture should be regulated by law.\n5. Distribution of river water among regions should be regulated by the Union Government.",
+        "options": [
+          "1 and 2",
+          "2, 4 and 5",
+          "1, 3 and 4",
+          "2, 3 and 5"
+        ],
+        "answer": 0,
+        "explanation": "Statement 1 is correct — inter-linking rivers addresses the skewed distribution problem directly. Statement 2 is correct — dams and canals help store and distribute water to drought/flood-prone areas. Statement 3 is contrary to logic as borewells deplete groundwater. Statements 4 and 5 are not implied by the passage. Hence option (a): 1 and 2."
+      }
+    ]
+  },
+  {
+    "passage": "People will invest in education whenever they are granted the economic freedom to fully enjoy its benefits. Again, this is for the obvious reason that the return on education increases as the level of economic freedom rises. When people, thanks to lower tax rates, are allowed to retain most of the higher income that they gain from each incremental level of education, it makes eminent sense to invest in education. On the other hand, when the government decides to tax the higher income of educated individuals at even higher rates, it makes very little sense to invest in educating oneself further. The same incentives apply to parents who decide on whether to invest in their children's education.",
+    "questions": [
+      {
+        "questionNumber": 3,
+        "question": "With reference to the above passage, which of the following assumptions is/are valid?\n1. Lower tax rates in a country invariably translate into greater investments in higher education.\n2. Investment in the education of children ensures their economic freedom.\n3. Economic freedom has a positive impact on building up human capital.",
+        "options": [
+          "1 only",
+          "2 only",
+          "3 only",
+          "1, 2 and 3"
+        ],
+        "answer": 2,
+        "explanation": "Statement 1 is invalid — the word 'invariably' makes it extreme; the passage only suggests a correlation, not a certainty. Statement 2 is invalid — the passage says economic freedom leads to investment in education, not the reverse. Statement 3 is valid — economic freedom encourages investment in education, which builds human capital. Hence option (c): 3 only."
+      }
+    ]
+  },
+  {
+    "passage": "Our urban bodies cannot possibly ensure sustainable delivery of water in our cities unless financing mechanisms are put in place. Water delivery requires heavy investment in collecting it from a natural source, treating it to make it potable, and laying a distribution network of pipes for delivery to the users. It also requires investments in sewerage infrastructure and sewage treatment plants so that the sewers can carry the wastewater to these plants to ensure that no untreated sewage is discharged back into natural water bodies. If our cities were rich enough to meet the entire cost, water could be delivered free. They are not.",
+    "questions": [
+      {
+        "questionNumber": 4,
+        "question": "What is the most logical and crucial message conveyed by the passage?",
+        "options": [
+          "Urban local bodies must recover costs through user charges.",
+          "Urban local bodies are not efficient enough to meet the water requirements of our cities.",
+          "Water shortage in our cities is a perennial problem that cannot be solved.",
+          "In view of the water crisis in our cities, there is an urgent need to limit city population."
+        ],
+        "answer": 0,
+        "explanation": "The passage states that cities lack financing to cover costs of water delivery and treatment. The logical implication is that financing must come from somewhere — user charges being the most direct mechanism. Option (b) confuses lack of funds with inefficiency. Option (c) is contradicted by the first sentence which implies sustainability is possible with proper financing. Option (d) is never mentioned. Hence option (a)."
+      },
+      {
+        "questionNumber": 5,
+        "question": "With reference to the above passage, which of the following assumptions is/are valid?\n1. Rich cities only can ensure sustainable delivery of water.\n2. Sustainable delivery of water in cities means much more than supplying water to households.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 1,
+        "explanation": "Statement 1 is invalid — the passage says rich cities could offer free water, but does not say only rich cities can ensure sustainable delivery; proper financing mechanisms can enable any city to do so. Statement 2 is valid — the passage explicitly mentions that sustainable water delivery also includes sewerage infrastructure and sewage treatment plants, going beyond mere household supply. Hence option (b): 2 only."
+      }
+    ]
+  }
+]

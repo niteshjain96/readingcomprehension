@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "passage": "Asset allocation is the most important investment decision we will ever make, and sadly, most of us do not give that decision the importance it deserves. We are adamant about seeking predictability with our future. We tend to think of investing in risky assets as extremely volatile and value eroding. We also dislike fluctuating returns and the loss of control of investment. We think our money is best left idle, unproductive but safe. There is no asset that is risk free. We could lose our jobs, our homes can lose value, our banks can go bankrupt, our bonds can default, the government can collapse and companies we chose fondly may cease to exist. But we cannot live life assuming that all these extreme events are waiting to happen, and all at the same time. All these extreme forms of risks we know will not manifest at the same time.",
+    "questions": [
+      {
+        "questionNumber": 14,
+        "question": "Which one of the following statements best implies the suggestion given by the author of the passage?",
+        "options": [
+          "Distribute your wealth across different kinds of assets so that your risks would be minimized.",
+          "Risk-taking behaviour should be a necessary component of your personality if you want to generate wealth.",
+          "While making investments, find a trustworthy asset management organization which would manage your wealth for you.",
+          "You should know that investing your money is a risky business."
+        ],
+        "answer": 0,
+        "explanation": "The passage opens by stressing the importance of asset allocation — spreading investments across different asset types. It also argues that not all extreme risks manifest simultaneously, implying diversification reduces overall risk. Option (a) directly captures this. Option (b) is not implied — the passage does not advocate risk-taking as a personality trait. Option (c) is never mentioned. Option (d) is partially correct but too narrow compared to (a). Hence option (a)."
+      }
+    ]
+  },
+  {
+    "passage": "Although most of the Genetically Modified (GM) crops cultivated now are genetically engineered for a single trait, in future, crops genetically engineered for more than one trait will be the norm. Thus, biotechnology's role in agriculture and the regulation of the same cannot be confined to the current generation of GM crops. Instead, there is a need to take a comprehensive look, taking into account various aspects, including socio-economic impacts, so that the potential of the technology can be harnessed while minimizing negative impacts. Given the importance of biotechnology in developing varieties that can help in climate change mitigation and adaptation, not using biotechnology as a part of the climate change action plan cannot be an option. Domestic regulation of biotechnology cannot be viewed in isolation of trade policy and obligations under various international treaties and conventions.",
+    "questions": [
+      {
+        "questionNumber": 15,
+        "question": "With reference to the above passage, which of the following assumptions are valid?\n1. Biotechnology regulation is an evolving process.\n2. Participation of people is needed in policy decisions regarding biotechnology regulation.\n3. Biotechnology regulation should take into account socio-economic aspects in decision-making.\n4. Wider involvement of political executive in biotechnology regulation improved its effectiveness in dealing with the country's trade policies and international obligations.",
+        "options": [
+          "1, 2 and 4 only",
+          "1 and 3 only",
+          "2, 3 and 4 only",
+          "1, 2, 3 and 4"
+        ],
+        "answer": 1,
+        "explanation": "Statement 1 is valid — the passage discusses both present and future roles of biotechnology regulation, implying it is an ongoing/evolving process. Statement 2 is invalid — the passage nowhere mentions public participation in policy decisions. Statement 3 is valid — the passage explicitly states the need to take a comprehensive look including socio-economic impacts. Statement 4 is invalid — the passage does not mention involvement of political executives. Hence option (b): 1 and 3 only."
+      },
+      {
+        "questionNumber": 16,
+        "question": "Which one of the following statements best implies the crux of the passage?",
+        "options": [
+          "Precautionary principle is not given importance in current debate on developing GM crops.",
+          "Biotechnology is not currently used in climate change mitigation and adaptation mechanisms.",
+          "Biotechnology's role is not confined to the current priorities of developing GM crops.",
+          "The negative impacts of biotechnology are not properly understood."
+        ],
+        "answer": 2,
+        "explanation": "The passage argues that biotechnology's role extends well beyond just developing single-trait GM crops — it covers multi-trait future crops, climate change adaptation, and international trade obligations. This broader vision is best captured by option (c). Option (a) is not mentioned. Option (b) contradicts the passage which says biotechnology should be part of climate action plans. Option (d) is too narrow and not the central message. Hence option (c)."
+      }
+    ]
+  },
+  {
+    "passage": "India has tremendous potential for solar energy. We all realize that we have to stop burning fossil fuels to meet our energy needs. But certain renewable resources are still going through their cost curves and learning curves to get the required amount of output. The Indian Government has strongly committed to its targets of reducing emissions by 33 per cent by 2030, and towards this it has initiated a strong push towards a gas-based economy and has also invested heavily in renewable energy. However, business houses are wary of investing too heavily in renewable energy at a time when the technology is not yet ready.",
+    "questions": [
+      {
+        "questionNumber": 42,
+        "question": "Which one of the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "India's commitment to reduce emissions by 33% is unlikely to be achieved.",
+          "India should import gas rather than invest in renewable resources.",
+          "Getting renewable resources to market too soon may be costly.",
+          "India should put in more efforts in the exploration of natural gas."
+        ],
+        "answer": 2,
+        "explanation": "The passage states that renewable resources are still going through cost and learning curves, and businesses are wary of investing when technology is not ready. This directly implies that pushing renewables to market prematurely could be costly and inefficient — option (c). Option (a) is contradicted by the government's strong commitment mentioned in the passage. Option (b) is not implied — importing gas is never suggested. Option (d) is not supported as the passage focuses on renewables, not gas exploration. Hence option (c)."
+      },
+      {
+        "questionNumber": 43,
+        "question": "With reference to the above passage, which of the following assumptions is/are valid?\n1. Governments often provide inefficient and costly subsidies for technologies that may not be ready in the near future.\n2. India's commitment of reducing emissions by 33% by 2030 shall be on the basis of gas-based economy alone.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 3,
+        "explanation": "Statement 1 is invalid — the passage mentions business wariness about investing in unready technology but does not talk about government subsidies being inefficient or wasteful. Statement 2 is invalid — the passage clearly states India's emission reduction commitment is backed by both a push towards a gas-based economy AND heavy investment in renewable energy, not gas alone. Hence option (d): Neither 1 nor 2."
+      }
+    ]
+  }
+]

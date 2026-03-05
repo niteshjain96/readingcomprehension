@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "passage": "India is at once among the fastest growing global economies and home to the largest number of malnourished children in the world. There are regions where malnutrition is not the exception but the norm. And across the country, malnutrition is the cause of death for roughly half the 1.3 million children who die before their fifth birthday each year. Even those children who survive suffer permanently from the damage that has already been done to their bodies and minds from not getting enough of the right foods and nutrients. Around 44 million children under 5 are stunted. That makes it harder for them to learn in school and subsequently earn a living as adults. Their lifetime earnings potential is almost a quarter less than that of their healthy peers.",
+    "questions": [
+      {
+        "questionNumber": 52,
+        "question": "With reference to the above passage, which of the following is/are the most rational and practical implication/implications?\n1. India's Public Distribution System should be monitored by the Union Government.\n2. Girls should be encouraged to delay marriage and first pregnancy.\n3. Mothers should be encouraged to breastfeed their children immediately after birth.\n4. The supply of safe drinking water and proper sanitation facilities to all should be ensured.\n5. Authorities should ensure vaccination as prescribed.",
+        "options": [
+          "1, 2, 3 and 4",
+          "2, 3, 4 and 5",
+          "1 only",
+          "3 and 5 only"
+        ],
+        "answer": 1,
+        "explanation": "Statement 1 is invalid — merely monitoring the PDS system will not directly address child malnutrition; the passage does not suggest this. Statement 2 is valid — delaying marriage and first pregnancy improves maternal health, which directly impacts child nutrition outcomes. Statement 3 is valid — breastfeeding provides critical immunity and nutrition to newborns, directly addressing malnutrition. Statement 4 is valid — safe drinking water and sanitation prevent disease and contribute to healthy child development. Statement 5 is valid — vaccination improves child survival rates and is implied by the passage's focus on child health outcomes. Hence option (b): 2, 3, 4 and 5."
+      }
+    ]
+  },
+  {
+    "passage": "The pulse variety 'Pusa Arhar 16' has the potential to be grown in the paddy-growing regions of Punjab, Haryana and Uttar Pradesh and eventually in all of India. Its yield (about 2000 kg/hectare) will be significantly greater than those of the existing varieties and because its size will be uniform, it will be amenable to mechanical harvesting, an attractive feature for farmers in northern India who currently use this technology for paddy. Most important, Arhar straw, unlike paddy straw, is green and can be ploughed back into the soil. In paddy straw, the problem is the high silica content, which does not allow for easy decomposition. In the case of Arhar, the farmer, even after combine harvesting, just needs to run a rotovator to cut the leftover straw into pieces, which can be ploughed back and will decompose very fast. All this is difficult with leftover paddy stalks that cannot be easily salvaged or ploughed back. Farmers, therefore, choose the easiest option of simply burning it.",
+    "questions": [
+      {
+        "questionNumber": 53,
+        "question": "Which of the following are the most rational inferences that can be made from the passage?\n1. Farmers' income will be higher with pulse cultivation than with paddy cultivation.\n2. Pulse cultivation causes less pollution as compared to paddy cultivation.\n3. Pulse straw can be used to improve soil quality.\n4. In the context of northern Indian agriculture, paddy straw has no usefulness.\n5. Mechanized agriculture is the main cause for stubble burning.",
+        "options": [
+          "2, 3 and 5",
+          "1, 4 and 5",
+          "2 and 3 only",
+          "1 and 4 only"
+        ],
+        "answer": 2,
+        "explanation": "Statement 1 is invalid — the passage mentions higher yield for Arhar but makes no comparison of farmer income between the two crops. Statement 2 is valid — since Arhar straw can be ploughed back rather than burned, it causes less air pollution than paddy straw burning. Statement 3 is valid — the passage explicitly states Arhar straw can be ploughed back into the soil and decomposes fast, improving soil quality. Statement 4 is invalid — the passage says burning is the easiest option, implying paddy straw may have other uses outside the field. Statement 5 is invalid — the passage does not identify mechanized agriculture as the main cause; it is the high silica content of paddy straw that makes ploughing back difficult. Hence option (c): 2 and 3 only."
+      }
+    ]
+  },
+  {
+    "passage": "In India, authorities always look to store the maximum amount of water in reservoirs during the monsoon season, which is then used for irrigation and generation of electricity during the summer months. It is an internationally accepted practice that the water level of a reservoir should be kept below a certain level before the onset of monsoon season. This is so that when monsoon rains come, there is space to store the excess rainwater and also so that water can be released in a regulated manner. But the authorities store the maximum amount of water in reservoirs even before the close of the monsoon, only to ensure greater electricity generation and irrigation.",
+    "questions": [
+      {
+        "questionNumber": 54,
+        "question": "With reference to the above passage, which of the following assumptions is/are valid?\n1. High risks involved in holding maximum water in reservoirs are due to our over-dependence on hydropower projects.\n2. Storage capacity of dams should not be fully used before or during monsoon season.\n3. Role of dams in flood control is underestimated in India.",
+        "options": [
+          "1 and 2 only",
+          "2 only",
+          "3 only",
+          "1, 2 and 3"
+        ],
+        "answer": 3,
+        "explanation": "Statement 1 is valid — the passage states authorities fill reservoirs to maximum to ensure electricity generation, implying over-dependence on hydropower drives risky water storage decisions. Statement 2 is valid — the entire passage is centered on the internationally accepted practice of keeping reservoir levels below maximum before monsoon, directly supporting this assumption. Statement 3 is valid — by filling reservoirs to maximum before monsoon ends, authorities leave no space for flood control, implying this critical role of dams is underestimated in India. Hence option (d): 1, 2 and 3."
+      }
+    ]
+  },
+  {
+    "passage": "Economic liberalization in India was shaped largely by the economic problems of the government than by the economic priorities of the people or by the long-term development objectives. Thus, there were limitations in conception and design which have been subsequently validated by experience. Jobless growth, persistent poverty and rising inequality have mounted as problems since economic liberalization began. And all these years later, four quite critical crises confront the economy: agriculture, infrastructure, industrialization and education as constraints on the country's future prospects. These problems must be resolved if economic growth has to be sustained and transformed into meaningful development.",
+    "questions": [
+      {
+        "questionNumber": 55,
+        "question": "Which of the following is/are the most rational and logical inference/inferences that can be made from the passage?\n1. It is essential to rethink and redefine the economic role of the State in the quest for development.\n2. India has not made effective implementation of its policies in social sectors nor made sufficient investments in them.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 0,
+        "explanation": "Statement 1 is valid — the passage criticises that economic liberalization was driven by the government's own economic problems rather than people's priorities or long-term development goals. This implies the State's economic role needs to be reconsidered and redefined. Statement 2 is invalid — the passage does not specifically mention ineffective implementation of social sector policies or insufficient investment in them; it speaks more broadly about flawed conception and design of liberalization. Hence option (a): 1 only."
+      },
+      {
+        "questionNumber": 56,
+        "question": "With reference to the above passage, which of the following assumptions is/are valid?\n1. India's economy needs to be greatly integrated with global economy so as to create large number of jobs and to sustain its growth momentum.\n2. Economic liberalization would cause large economic growth which would reduce poverty and create sufficient employment in the long run.",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 3,
+        "explanation": "Statement 1 is invalid — the passage actually blames economic liberalization (greater global integration) for jobless growth, poverty and inequality in India, directly contradicting this assumption. Statement 2 is invalid — the passage explicitly states that jobless growth, persistent poverty and rising inequality have mounted since economic liberalization began, which is the opposite of what statement 2 claims. The passage argues that sustained growth must be transformed into meaningful development, not that liberalization alone achieves this. Hence option (d): Neither 1 nor 2."
+      }
+    ]
+  }
+]
