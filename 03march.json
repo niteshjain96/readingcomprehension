@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "passage": "A landscape-scale approach to land use can encourage greater biodiversity outside protected areas. During hurricane 'Mitch' in 1998, farms using ecoagricultural practices suffered 58 percent, 70 percent and 99 percent less damage in Honduras, Nicaragua and Guatemala, respectively, than farms using conventional techniques. In Costa, vegetative windbreaks and fencerows boosted farmers' income from pasture and coffee while also increasing bird diversity. Bee pollination is more effective when agricultural fields are closer to natural or seminatural habitat, a finding that matters because 87 percent of the world's 107 leading crops depend on animal pollinators. In Costa Rica, Nicaragua and Colombia silvopastoral systems t tint integrate trees with pastureland are improving the sustainability of cattle production, and diversifying and increasing farmers' income.",
+    "questions": [
+      {
+        "question": "Which among the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "Agricultural practices that enhance biodiversity can often increase farm output and reduce the vulnerability to disasters.",
+          "All the countries of the world should be encouraged to replace ecoagriculture with conventional agriculture.",
+          "Ecoagriculture should be permitted in protected areas without destroying the biodiversity there.",
+          "The yield of food crops will be very high if ecoagricultural practices are adopted to cultivate them."
+        ],
+        "answer": 0,
+        "explanation": "The passage provides data showing that ecoagricultural practices significantly reduced hurricane damage and boosted incomes through biodiversity-related benefits like pollination [cite: 479-482]."
+      }
+    ]
+  },
+  {
+    "passage": "The medium term challenge for Indian manufacturing is to move from lower to higher tech sectors, from lower to higher value-added sectors, and from lower to higher productivity sectors. Medium tech industries are primarily capital intensive and resource processing; and high tech industries are mainly capital and technology intensive. In order to push the share of manufacturing in overall GDP to the projected 25 per cent, Indian manufacturing needs to capture the global market in sectors showing a rising trend in demand. These sectors are largely high technology and capital intensive.",
+    "questions": [
+      {
+        "question": "Which among the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "India's GDP displays high value-added and high productivity levels in medium tech and resource processing industries.",
+          "Promotion of capital and technology intensive manufacturing is not possible in India.",
+          "India should push up the public investments and encourage the private investments in research and development, technology upgradation and skill development.",
+          "India has already gained a great share in global markets in sectors showing a rising trend in demand."
+        ],
+        "answer": 2,
+        "explanation": "To transition to high-tech, capital-intensive sectors as the passage suggests, investment in R&D and technology upgradation is the logical requirement[cite: 495, 506]."
+      }
+    ]
+  },
+  {
+    "passage": "Over the last decade, Indian agriculture has become more robust with record production of food grains and oilseeds. Increased procurement, consequently, has added huge of food grains in the granaries. India is one of the world's top producers of rice, wheat, milk, fruits and vegetables. India is still home the quarter of all undernourished people in the world. On an average, almost half of the total expenditure of nearly half of the households is on food.",
+    "questions": [
+      {
+        "question": "Which among the following is the most logical corollary to the above passage?",
+        "options": [
+          "Increasing the efficiency of farm to-fork value chain is necessary to reduce the poverty and malnutrition.",
+          "Increasing the agricultural productivity will automatically eliminate the poverty and malnutrition in India.",
+          "India's agricultural productivity is already great and it is not necessary to increase it further.",
+          "Allocation of more funds for social welfare and poverty alleviation programmes will ultimately eliminate the poverty and malnutrition in India."
+        ],
+        "answer": 0,
+        "explanation": "The passage points out a paradox: record food production and full granaries existing alongside widespread undernourishment, implying a failure in the distribution/value chain [cite: 508-511, 527]."
+      }
+    ]
+  },
+  {
+    "passage": "The States are like pearls and the Centre is the thread which turns them into a necklace; if the thread snaps, the pearls are scattered.",
+    "questions": [
+      {
+        "question": "Which one of the following views is corroborated by this statement?",
+        "options": [
+          "A strong Centre and strong States help the federation survive.",
+          "A strong Centre is a binding force for national integrity.",
+          "A strong Centre is a hindrance to State autonomy.",
+          "State autonomy is a prerequisite for a federation."
+        ],
+        "answer": 1,
+        "explanation": "The metaphor of the 'thread' holding the 'pearls' together directly identifies the Centre as the essential binding force for the unity of the States [cite: 538-540]."
+      }
+    ]
+  },
+  {
+    "passage": "\"The poorest man in England has a life to live, as the greatest he, and therefore truly, I think it's clear, that every man that is to live under a government ought first by his own consent to put himself under the government, and I do think that the poorest man in England is not at all bound in a strict sense to that government that he hath not had a voice to put himself under.\"",
+    "questions": [
+      {
+        "question": "The above passage argues for",
+        "options": [
+          "distribution of wealth equally to all",
+          "rule according to the consent of the governed",
+          "rule of the poor",
+          "expropriation of the rich"
+        ],
+        "answer": 1,
+        "explanation": "The author explicitly states that a person should only be bound by a government if they have given their 'own consent' and had a 'voice' in its formation[cite: 542, 552]."
+      }
+    ]
+  }
+]

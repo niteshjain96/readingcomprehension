@@ -1,0 +1,77 @@
+[
+  {
+    "passage": "Climate change is likely to expose a large number of people to increasing environmental risks forcing them to migrate. The international community is yet to recognize this new category of migrants. There is no consensus on the definition and status of climate refugees owing to the distinct meaning the term refugees carry under international laws. There are still gaps in understanding how climate change will work as the root cause of migration. Even if there is recognition of climate refugees, who is going to provide protection? More emphasis has been given to international migration due to climate change. But there is a need to recognize the migration of such people within the countries also so that their problems can be addressed properly.",
+    "questions": [
+      {
+        "question": "Which of the following is the most rational inference from the above passage?",
+        "options": [
+          "The world will not be able to cope with large scale migration of climate refugees.",
+          "We must find the ways and means to stop further climate change.",
+          "Climate change will be the most important reason for the migration of people in the future.",
+          "Relation between climate change and migration is not yet properly understood."
+        ],
+        "answer": 3,
+        "explanation": "The passage explicitly states there are gaps in understanding how climate change acts as a root cause of migration and lacks a consensus on definitions[cite: 107, 121]."
+      }
+    ]
+  },
+  {
+    "passage": "Many farmers use synthetic pesticides to kill infesting insects. The consumption of pesticides in some of the developed countries is touching 3000 grams/hectare. Unfortunately, there are reports that these compounds possess inherent toxicities that endanger, the health of the farm operators, consumers and the environment. Synthetic pesticides are generally persistent in environment. Entering in food chain they destroy the microbial diversity and cause ecological imbalance. Their indiscriminate use has resulted in development of resistance among insects to insecticides, upsetting of balance in nature and resurgence of treated populations. Natural pest control using the botanical pesticides is safer to the user and the environment because they break down into harmless compounds within hours or days in the presence of sunlight. Plants with pesticidal properties have been in nature for millions of years without any ill or adverse effects on the ecosystem. They are easily decomposed by many microbes common in most soil. They help in the maintenance of biological diversity, of predators and the reduction of environmental contamination and human health hazards. Botanical pesticides formulated from plants are biodegradable and their use in crop protection is a practical sustainable alternative.",
+    "questions": [
+      {
+        "question": "On the basis of the above passage, the following assumptions have been made:\n1. Synthetic pesticides should never be used in modem agriculture.\n2. One of the aims of sustainable agriculture is to ensure minimal ecological imbalance.\n3. Botanical pesticides are more effective as compared to synthetic pesticides.\nWhich of the assumptions given above is/are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "answer": 2,
+        "explanation": "The strategy used is the Assumption Negation Technique. Negating statements 1 and 3 contradicts the passage's core argument regarding the dangers of synthetic vs. the benefits of botanical pesticides [cite: 153-158]."
+      },
+      {
+        "question": "Which of the following statements is/are correct regarding biopesticides?\n1. They are not hazardous to human health.\n2. They are persistent in environment.\n3. They are essential to maintain the biodiversity of any ecosystem.\nSelect the correct answer using the code given below.",
+        "options": [
+          "1 only",
+          "1 and 2 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "answer": 0,
+        "explanation": "Statement 1 is correct as the passage notes they have no adverse effects on ecosystems; statement 2 is wrong because synthetic ones are persistent, not botanical; statement 3 is too far-fetched[cite: 168, 169, 174]."
+      }
+    ]
+  },
+  {
+    "passage": "An air quality index (AQI) is a way to combine measurements of multiple air pollutants into a single number or rating. This index is ideally kept constantly updated and available in different places. The AQI is most useful when lots of pollution data are being gathered and when pollution levels are normally, but not always, low. In such cases, if pollution levels spike for a few days, the public can quickly take preventive action (like staying indoors) in response to an air quality warning. Unfortunately, that is not urban India. Pollution levels in many large Indian cities are so high that they remain well above any health or regulatory standard for large part of the year. If our index stays in the Red/Dangerous' region day after day, there is not much any one can do, other than getting used to ignoring it.",
+    "questions": [
+      {
+        "question": "Which among the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "Our governments are not responsible enough to keep our cities pollution free.",
+          "There is absolutely no need for air quality indices in our country.",
+          "Air quality index is not helpful to the residents of many of our large cities.",
+          "In every city, public awareness about pollution problems should increase."
+        ],
+        "answer": 2,
+        "explanation": "The passage suggests that since pollution is constantly high in Indian cities, the 'warning' function of the index becomes unhelpful as people simply get used to ignoring it[cite: 446, 455]."
+      }
+    ]
+  },
+  {
+    "passage": "Productive jobs are vital for growth and a good lob is the best form of inclusion. More than half of our population depends on agriculture, but the experience of other countries suggests that the number of people dependent on agriculture will have to shrink if per capita incomes in agriculture are to go up substantially. While industry is creating jobs, too many such jobs are low-productivity non-contractual jobs in the unorganized sector, offering low incomes, little protection, and no benefits. Service jobs are relatively of high productivity, but employment growth is not fast enough.",
+    "questions": [
+      {
+        "question": "Which among the following is the most logical and rational inference that can be made from the above passage?",
+        "options": [
+          "We must create the conditions for the faster growth of highly productive service jobs to ensure employment growth and inclusion.",
+          "We must shift the farm workers to the highly productive manufacturing and service sectors to ensure the economic growth and inclusion.",
+          "We must create conditions for the faster growth of productive jobs outside of agriculture even while improving the productivity of agriculture.",
+          "We must emphasize the cultivation of high-yielding hybrid varieties and genetically modified crops to increase the per capita income in agriculture."
+        ],
+        "answer": 0,
+        "explanation": "The passage links productive jobs to growth/inclusion and notes that service jobs are high-productivity but slow-growing, implying a need for their faster growth[cite: 470, 471]."
+      }
+    ]
+  }
+]

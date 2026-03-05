@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "passage": "Why do people prefer open defecation and not want toilets or, if they have them, only use them sometimes? Recent research has shown two critical elements: ideas of purity and pollutions, and not wanting pits or septic tanks to fill they have to be emptied. These are the issue that nobody wants to talk about, but if we want to eradicate the practice of open defection, they have to be confronted and dealt properly.",
+    "questions": [
+      {
+        "question": "Which among the following is the most crucial message conveyed by the above passage?",
+        "options": [
+          "The ideas of purity and pollutions are so deep-rooted that they cannot be removed from the minds of the people.",
+          "People have to perceive toilet use and pit-emptying as clean and not polluting.",
+          "People cannot change their old habits.",
+          "People have neither civic sense nor sense of privacy."
+        ],
+        "answer": 1,
+        "explanation": "The passage identifies ideas of 'purity and pollution' as barriers that must be confronted to eradicate open defecation [cite: 1213-1214]."
+      }
+    ]
+  },
+  {
+    "passage": "In the last two decades, the world's gross domestic product (GDP) has increased 50 percent, whereas inclusive wealth has increased by a mere 6 percent. In recent decades, GDP-driven economic performance, has only harmed inclusive wealth like human capital; and natural capital like forests, land and water. While the world's human capital which stands at 57 percent of total inclusive wealth grew by only 8 percent, the natural which is 23 percent of total inclusive wealth declined by 30 per cent worldwide in the last two decades.",
+    "questions": [
+      {
+        "question": "Which of the following is the most crucial inference from the above passage?",
+        "options": [
+          "More emphasis should be laid on the development of natural capital.",
+          "The growth driven by GDP only is neither desirable nor sustainable.",
+          "The economic performance of the countries of the world is not satisfactory.",
+          "The world needs more human capital under the present circumstances."
+        ],
+        "answer": 1,
+        "explanation": "The passage highlights that GDP-driven growth has harmed inclusive wealth (human and natural capital), implying that such growth alone is not desirable[cite: 1225, 1229]."
+      }
+    ]
+  },
+  {
+    "passage": "By 2020, when the global economy is expected to run short of 56 million young people, India, with its youth surplus of 47 million, could fill the gap. It is in this context that labour reforms are often cited as the way to unlock double-digit growth in India. In 2014, India's labour force was estimated to be about 40 per cent of the population, but 93 per cent of this force was in unorganized sector. Over the last decade, the compound annual growth rate (CAGR) of employment has slowed to 0.5 per cent, with about 14 million jobs created during last year when the labour force increased by about 15 million.",
+    "questions": [
+      {
+        "question": "Which of the following is most rational inference from the above passage?",
+        "options": [
+          "India must control its population growth so as to reduce its unemployment rate.",
+          "Labour reforms are required in India to make optimum use of its vast labour force productively",
+          "India is poised to achieve the double-digit growth very soon",
+          "India is capable of supplying its skilled young people to other countries."
+        ],
+        "answer": 1,
+        "explanation": "The passage mentions labour reforms as the key to unlocking growth and utilizing the youth surplus productively [cite: 1232, 1244-1245]."
+      }
+    ]
+  },
+  {
+    "passage": "The very first lesson that should be taught to us when are old enough to understand it, is that complete freedom from the obligation to work is unnatural, and ought to be illegal, as we can escape our share of the burden of work only by throwing it on someone else's shoulders. Nature ordains that the human race shall perish of famine if it stops working. We cannot escape from this tyranny. The question we have to settle is how much leisure we can afford to allow ourselves.",
+    "questions": [
+      {
+        "question": "The main idea of the passage is that",
+        "options": [
+          "it is essential for human beings to work",
+          "there should be a balance between work and leisure",
+          "working is a tyranny which we to face",
+          "human's understanding of the nature of work is essential"
+        ],
+        "answer": 1,
+        "explanation": "The passage discusses the necessity of work but concludes with the need to determine the right amount of leisure, implying a balance [cite: 1261-1262]."
+      }
+    ]
+  },
+  {
+    "passage": "There is no harm in cultivating habits so long as they are not injurious. Indeed, most of us are little more than bundle of habits. Take away our habits and the residuum would hardly be worth bothering about. We could not get on without them. They simplify the mechanism of life. They enable us to do a multitude of things automatically, which, if we had to give fresh and original thought to them each time, would make an impossible confusion.",
+    "questions": [
+      {
+        "question": "The author suggests that habits",
+        "options": [
+          "tend to make our lives difficult",
+          "add precision to our lives",
+          "make it easier for us to live",
+          "tend to mechanize our lives"
+        ],
+        "answer": 2,
+        "explanation": "The author explicitly states that habits 'simplify the mechanism of life' and 'make it easier for us to live'[cite: 1268, 1278]."
+      }
+    ]
+  }
+]

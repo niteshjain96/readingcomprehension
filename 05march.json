@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "passage": "The greatest blessing that technological progress has in store for mankind is not, of course, an accumulation of material possessions. The amount of these that can be effectively enjoyed by one individual in one lifetime is not great. But there is not the same narrow limit to the possibilities of the enjoyment of leisure. The gift of leisure may be abused by people who have had no experience of making use of it. Yet the creative use of leisure by a minority in societies has been the mainspring of all human progress beyond the primitive level.",
+    "questions": [
+      {
+        "question": "With reference to the above passage, the following assumptions have been made:\n1. People always see the leisure time as a gift and use it for acquiring more material possessions.\n2. Use of leisure by some people to produce new and original things has been the chief source of human progress.\nWhich of these assumptions is/are valid?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 1,
+        "explanation": "Statement 1 is contradictory as the passage distinguishes leisure from material possessions; statement 2 is valid as the 'creative use of leisure' is called the 'mainspring of all human progress'[cite: 880]."
+      }
+    ]
+  },
+  {
+    "passage": "There is more than a modicum of truth in the assertion that \"a working knowledge of ancient history is necessary to the intelligent interpretation of current events\". But the sage who uttered these words of wisdom might well have added something on the benefits of studying particularly the famous battles of history for the lessons they contain for those of us who lead or aspire to leadership. Such a study will reveal certain qualities and attributes which enabled the winners to win-and certain deficiencies which caused the losers to lose and the student will see that the same pattern recurs consistently, again and again, throughout the centuries.",
+    "questions": [
+      {
+        "question": "With reference to the above passage, the following assumptions have been made:\n1. A study of the famous battles in history would help us understand the modern warfare.\n2. Studying the history is essential for anyone who aspires to be a leader.\nWhich of these assumptions is/are valid?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "answer": 3,
+        "explanation": "Statement 1 is invalid as the passage links battles to leadership, not modern warfare mechanics; statement 2 is invalid because while history is suggested as beneficial, the passage does not assume it is an absolute 'essential' for all leaders [cite: 899-901]."
+      }
+    ]
+  },
+  {
+    "passage": "What climate change will undeniably do is cause or amplify events that hasten the reduction of resources. Competition over these diminishing resources would ensue in the form of political or even violent conflict. Resource based conflicts have rarely been overt and are thus difficult to isolate. Instead they take on veneers that appear more politically palatable. Conflicts over resources like water are often cloaked in the guise of identity or ideology.",
+    "questions": [
+      {
+        "question": "What does the above passage imply?",
+        "options": [
+          "Resource-based conflicts are always politically motivated.",
+          "There are no political solutions to resolve environmental and resource based conflicts.",
+          "Environmental issues contribute to resource stresses and political conflict.",
+          "Political conflict based on identity or ideology cannot be resolved."
+        ],
+        "answer": 2,
+        "explanation": "The passage implies that climate change reduces resources, which leads to competition and conflict, though these are often hidden behind other political 'guises' [cite: 1163-1164]."
+      }
+    ]
+  },
+  {
+    "passage": "The man who is perpetually hesitating which of the two things he will do first, will do neither. The man who resolves, but suffers his resolution to be changed by the first counter Suggestion of a friend-who fluctuates from opinion to opinion and veers from plan to plan-can never accomplish anything. He will at best be stationary and probably retrograde in all. It is only the man who first consults wisely, then resolves firmly and then executes his purpose with inflexible perseverance, undismayed by those petty difficulties which daunt a weaker spirit-that can advance to eminence in any line.",
+    "questions": [
+      {
+        "question": "The keynote that seems to be emerging from the passage is that",
+        "options": [
+          "we should first consult wisely and then resolve firmly",
+          "we should reject suggestions of friends and remain unchanged",
+          "we should always remain broad-minded",
+          "we should be resolute and achievement-oriented"
+        ],
+        "answer": 3,
+        "explanation": "The central theme is about avoiding hesitation and fluctuation to 'advance to eminence', which is encapsulated by being resolute and focused on achievement[cite: 1186]."
+      }
+    ]
+  },
+  {
+    "passage": "During the summer in the Arctic Ocean, sea ice has been melting earlier and faster, and the winter freeze has been coming later. In the last three decades, the extent of summer ice has declined by about 30 per cent. The lengthening period of summer melt threatens to undermine the whole Arctic food web, atop which stand polar bears.",
+    "questions": [
+      {
+        "question": "Which among the following is the most crucial message conveyed by the above passage?",
+        "options": [
+          "Climate change has caused Arctic summer to be short but temperature to be high.",
+          "Polar bears can be shifted to South Pole to ensure their survival.",
+          "Without the presence of polar bears, the food chains in Arctic region will disappear.",
+          "Climate change poses a threat to the survival of polar bears."
+        ],
+        "answer": 3,
+        "explanation": "The passage describes the melting ice as a threat to the entire Arctic food web, with polar bears at the top, implying a threat to their survival[cite: 1200]."
+      }
+    ]
+  }
+]
