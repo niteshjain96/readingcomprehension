@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC CSAT 2026 Daily Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(226, 232, 240, 1); }
+        .date-card { transition: all 0.2s; cursor: pointer; }
+        .date-card:hover:not(.locked) { transform: translateY(-2px); border-color: #3b82f6; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+        .date-card.locked { opacity: 0.5; cursor: not-allowed; background: #f1f5f9; }
+        .option-card { transition: all 0.2s ease; cursor: pointer; }
+        .option-card.selected { border-color: #2563eb; background-color: #dbeafe; ring: 2px solid #2563eb; }
+    </style>
+</head>
+<body class="min-h-screen text-slate-800 flex flex-col items-center p-4 md:p-8">
+
+    <main class="w-full max-w-6xl">
+        <div id="dashboard-section" class="space-y-8 max-w-4xl mx-auto">
+            <header class="text-center">
+                <h1 class="text-4xl font-extrabold text-slate-900 mb-2">CSAT 2026 Daily Portal</h1>
+                <p class="text-slate-500 italic">Target: May 24, 2026 | Marking: +2.5 | -0.83</p>
+            </header>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4" id="calendar-grid"></div>
+        </div>
+
+        <div id="quiz-section" class="hidden glass-card rounded-2xl overflow-hidden shadow-2xl">
+            <div class="bg-white border-b p-6 flex justify-between items-center">
+                <div>
+                    <h2 id="current-quiz-date" class="text-lg font-bold text-slate-900"></h2>
+                    <div class="flex gap-2 items-center">
+                        <span id="question-count" class="text-xs text-blue-600 font-bold uppercase"></span>
+                        <span id="passage-sub-count" class="text-[10px] bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-bold"></span>
+                    </div>
+                </div>
+                <span id="time-spent" class="text-sm font-mono bg-slate-100 px-3 py-1 rounded">0:00</span>
+            </div>
+            
+            <div class="flex flex-col md:flex-row h-[65vh] divide-y md:divide-y-0 md:divide-x divide-slate-200">
+                <div class="w-full md:w-1/2 p-8 overflow-y-auto bg-slate-50">
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Passage</span>
+                    <div id="passage-container" class="mt-4 text-slate-700 leading-relaxed text-lg italic"></div>
+                </div>
+                <div class="w-full md:w-1/2 p-8 overflow-y-auto bg-white">
+                    <h3 id="question-text" class="text-xl font-medium mb-6 leading-relaxed"></h3>
+                    <div id="options-container" class="space-y-3"></div>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 p-6 flex justify-between items-center border-t">
+                <button id="prev-btn" class="text-slate-400 font-medium disabled:opacity-30">Previous</button>
+                <button id="next-btn" class="bg-slate-900 text-white px-8 py-2 rounded-lg font-medium">Next</button>
+                <button id="submit-btn" class="hidden bg-green-600 text-white px-8 py-2 rounded-lg font-medium">Submit Quiz</button>
+            </div>
+        </div>
+
+        <div id="result-section" class="hidden max-w-2xl mx-auto space-y-6">
+            <div class="glass-card rounded-2xl p-10 text-center shadow-xl">
+                <h2 class="text-2xl font-bold mb-4">Quiz Results</h2>
+                <div class="flex justify-center items-center gap-8 mb-6">
+                    <div class="text-center">
+                        <div class="text-4xl font-black text-blue-600" id="marks-display">0.00</div>
+                        <div class="text-xs font-bold text-slate-400 uppercase">Total Marks</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-black text-slate-900" id="score-display">0/0</div>
+                        <div class="text-xs font-bold text-slate-400 uppercase tracking-tighter">Correct Ans</div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <button id="download-btn" class="bg-slate-900 text-white px-6 py-3 rounded-xl font-bold">Download Full Report</button>
+                    <button onclick="location.reload()" class="bg-slate-100 text-slate-700 px-6 py-3 rounded-xl font-bold hover:bg-slate-200">Back to Portal</button>
+                </div>
+            </div>
+            <div id="review-container" class="space-y-4"></div>
+        </div>
+    </main>
+
+    <script>
+        const POSITIVE_MARKS = 2.5;
+        const NEGATIVE_MARKS = 0.83;
+        let flatQuestions = [];
+        let currentIndex = 0;
+        let userAnswers = {};
+        let startTime, timerInterval, activeDate;
+
+        const initCalendar = () => {
+            const grid = document.getElementById('calendar-grid');
+            const start = new Date("2026-03-01"), end = new Date("2026-05-23"), today = new Date();
+            let current = new Date(start);
+            while (current <= end) {
+                const dateStr = current.toISOString().split('T')[0];
+                const fileName = `${String(current.getDate()).padStart(2, '0')}${current.toLocaleString('en-US', { month: 'long' }).toLowerCase()}.json`;
+                const isLocked = current > today;
+                const card = document.createElement('div');
+                card.className = `date-card glass-card p-4 rounded-xl text-center ${isLocked ? 'locked' : ''}`;
+                card.innerHTML = `<div class="text-xs font-bold text-slate-400 uppercase">${current.toLocaleString('default', { month: 'short' })}</div><div class="text-2xl font-black">${current.getDate()}</div><div class="text-[10px] mt-1 ${!isLocked ? 'text-green-600 font-bold' : 'text-slate-400'}">${isLocked ? 'LOCKED' : 'READY'}</div>`;
+                if (!isLocked) card.onclick = () => fetchAndStartQuiz(dateStr, fileName);
+                grid.appendChild(card);
+                current.setDate(current.getDate() + 1);
+            }
+        };
+
+        const fetchAndStartQuiz = async (date, fileName) => {
+            try {
+                const response = await fetch(`./${fileName}`);
+                const data = await response.json();
+                flatQuestions = [];
+                data.forEach((p, pIdx) => {
+                    p.questions.forEach((q, qIdx) => {
+                        flatQuestions.push({ ...q, passage: p.passage, pNum: pIdx + 1, qInP: qIdx + 1, totalInP: p.questions.length });
+                    });
+                });
+                activeDate = date; currentIndex = 0; userAnswers = {};
+                document.getElementById('dashboard-section').classList.add('hidden');
+                document.getElementById('quiz-section').classList.remove('hidden');
+                document.getElementById('current-quiz-date').textContent = new Date(date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+                startTime = new Date(); startTimer(); renderQuestion();
+            } catch (err) { alert("Quiz file not found or incorrectly formatted."); }
+        };
+
+        const startTimer = () => {
+            timerInterval = setInterval(() => {
+                const diff = Math.floor((new Date() - startTime) / 1000);
+                document.getElementById('time-spent').textContent = `${Math.floor(diff/60)}:${(diff%60).toString().padStart(2, '0')}`;
+            }, 1000);
+        };
+
+        const renderQuestion = () => {
+            const q = flatQuestions[currentIndex];
+            document.getElementById('passage-container').textContent = q.passage;
+            document.getElementById('question-text').textContent = q.question;
+            document.getElementById('question-count').textContent = `Question ${currentIndex + 1} of ${flatQuestions.length}`;
+            document.getElementById('passage-sub-count').textContent = `Passage ${q.pNum}: Q${q.qInP}/${q.totalInP}`;
+            
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            q.options.forEach((opt, idx) => {
+                const div = document.createElement('div');
+                div.className = `option-card border-2 p-4 rounded-xl font-medium ${userAnswers[currentIndex] === idx ? 'selected' : 'border-slate-100'}`;
+                div.innerHTML = `<span class="text-slate-400 mr-3">${String.fromCharCode(65+idx)}.</span> ${opt}`;
+                div.onclick = () => { userAnswers[currentIndex] = idx; renderQuestion(); };
+                container.appendChild(div);
+            });
+            document.getElementById('prev-btn').disabled = currentIndex === 0;
+            const isLast = currentIndex === flatQuestions.length - 1;
+            document.getElementById('next-btn').classList.toggle('hidden', isLast);
+            document.getElementById('submit-btn').classList.toggle('hidden', !isLast);
+        };
+
+        document.getElementById('next-btn').onclick = () => { currentIndex++; renderQuestion(); };
+        document.getElementById('prev-btn').onclick = () => { currentIndex--; renderQuestion(); };
+        
+        document.getElementById('submit-btn').onclick = () => {
+            clearInterval(timerInterval);
+            document.getElementById('quiz-section').classList.add('hidden');
+            document.getElementById('result-section').classList.remove('hidden');
+            showResults();
+        };
+
+        const showResults = () => {
+            let correct = 0, wrong = 0;
+            const container = document.getElementById('review-container');
+            container.innerHTML = '';
+            flatQuestions.forEach((q, idx) => {
+                const isCorrect = userAnswers[idx] === q.answer;
+                const isSkipped = userAnswers[idx] === undefined;
+                if (!isSkipped) isCorrect ? correct++ : wrong++;
+                
+                const div = document.createElement('div');
+                div.className = `glass-card p-5 rounded-xl border-l-4 mb-4 ${isSkipped ? 'border-slate-300' : (isCorrect ? 'border-green-500' : 'border-red-500')}`;
+                div.innerHTML = `
+                    <div class="text-[10px] font-bold text-slate-400 mb-1 uppercase tracking-widest">Passage ${q.pNum} | Question ${q.qInP}</div>
+                    <p class="font-bold mb-3">${q.question}</p>
+                    <div class="text-sm mb-3 space-y-1">
+                        <p>Your Answer: <span class="${isCorrect ? 'text-green-600' : 'text-red-600'} font-bold">${userAnswers[idx] !== undefined ? q.options[userAnswers[idx]] : 'Skipped'}</span></p>
+                        <p>Correct: <span class="text-green-600 font-bold">${q.options[q.answer]}</span></p>
+                    </div>
+                    <div class="bg-slate-50 p-3 rounded text-xs italic text-slate-600"><strong>Explanation:</strong> ${q.explanation}</div>`;
+                container.appendChild(div);
+            });
+            const totalMarks = (correct * POSITIVE_MARKS) - (wrong * NEGATIVE_MARKS);
+            document.getElementById('marks-display').textContent = totalMarks.toFixed(2);
+            document.getElementById('score-display').textContent = `${correct}/${flatQuestions.length}`;
+        };
+
+        document.getElementById('download-btn').onclick = function() {
+            try {
+                const { jsPDF } = window.jspdf;
+                const doc = new jsPDF();
+                const marks = document.getElementById('marks-display').textContent;
+                const score = document.getElementById('score-display').textContent;
+                
+                doc.setFontSize(18);
+                doc.text(`UPSC CSAT Daily Report: ${activeDate}`, 14, 20);
+                doc.setFontSize(12);
+                doc.text(`Score: ${marks} | Correct Answers: ${score}`, 14, 30);
+                doc.line(14, 35, 196, 35);
+                
+                let y = 45;
+
+                flatQuestions.forEach((q, idx) => {
+                    const isCorrect = userAnswers[idx] === q.answer;
+                    const isSkipped = userAnswers[idx] === undefined;
+
+                    // Page check
+                    if (y > 240) { doc.addPage(); y = 20; }
+                    
+                    // Header
+                    doc.setFont(undefined, 'bold');
+                    doc.setFontSize(10);
+                    doc.setTextColor(100, 116, 139);
+                    doc.text(`PASSAGE ${q.pNum} | QUESTION ${q.qInP}`, 14, y);
+                    y += 7;
+
+                    // Question Text
+                    doc.setFontSize(11);
+                    doc.setTextColor(0, 0, 0);
+                    const qSplit = doc.splitTextToSize(`Q: ${q.question}`, 180);
+                    doc.text(qSplit, 14, y);
+                    y += (qSplit.length * 6);
+
+                    // User Answer
+                    doc.setFont(undefined, 'normal');
+                    doc.setFontSize(10);
+                    if(isSkipped) {
+                        doc.setTextColor(120, 120, 120);
+                        doc.text(`Your Answer: Skipped`, 14, y);
+                    } else if(isCorrect) {
+                        doc.setTextColor(34, 197, 94);
+                        doc.text(`Your Answer: ${q.options[userAnswers[idx]]} (Correct)`, 14, y);
+                    } else {
+                        doc.setTextColor(239, 68, 68);
+                        doc.text(`Your Answer: ${q.options[userAnswers[idx]]} (Incorrect)`, 14, y);
+                    }
+                    y += 6;
+
+                    // Correct Answer
+                    doc.setTextColor(34, 197, 94);
+                    doc.text(`Correct Answer: ${q.options[q.answer]}`, 14, y);
+                    y += 8;
+
+                    // Explanation
+                    doc.setTextColor(80, 80, 80);
+                    doc.setFont(undefined, 'italic');
+                    const expSplit = doc.splitTextToSize(`Explanation: ${q.explanation}`, 175);
+                    doc.text(expSplit, 16, y);
+                    y += (expSplit.length * 5) + 12;
+
+                    // Reset for next loop
+                    doc.setFont(undefined, 'normal');
+                });
+                
+                doc.save(`CSAT_Report_${activeDate}.pdf`);
+            } catch (err) {
+                console.error(err);
+                alert("Could not generate PDF. Please check the console for errors.");
+            }
+        };
+
+        window.onload = initCalendar;
+    </script>
+</body>
+</html>
