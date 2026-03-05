@@ -92,10 +92,11 @@
             const grid = document.getElementById('calendar-grid');
             const start = new Date("2026-03-01"), end = new Date("2026-05-23"), today = new Date();
             let current = new Date(start);
+            const todayStr = new Date().toLocaleDateString('en-CA');
             while (current <= end) {
                 const dateStr = current.toISOString().split('T')[0];
                 const fileName = `${String(current.getDate()).padStart(2, '0')}${current.toLocaleString('en-US', { month: 'long' }).toLowerCase()}.json`;
-                const isLocked = current > today;
+                const isLocked = dateStr >  todayStr;
                 const card = document.createElement('div');
                 card.className = `date-card glass-card p-4 rounded-xl text-center ${isLocked ? 'locked' : ''}`;
                 card.innerHTML = `<div class="text-xs font-bold text-slate-400 uppercase">${current.toLocaleString('default', { month: 'short' })}</div><div class="text-2xl font-black">${current.getDate()}</div><div class="text-[10px] mt-1 ${!isLocked ? 'text-green-600 font-bold' : 'text-slate-400'}">${isLocked ? 'LOCKED' : 'READY'}</div>`;
